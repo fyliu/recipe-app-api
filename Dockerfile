@@ -1,5 +1,6 @@
 FROM python:3.7-alpine
-MAINTAINER Fang Yi Liu
+LABEL maintainer="Fang Yi Liu <fangyiliu@gmail.com>" \
+      version="0.1.0"
 
 ENV PYTHONUNBUFFERED 1
 
