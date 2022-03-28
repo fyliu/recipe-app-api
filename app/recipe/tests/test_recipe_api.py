@@ -76,4 +76,4 @@ class PrivateRecipeApiTests(TestCase):
         serializer = RecipeSerializer(recipes, many=True)
         self.assertEqual(res.status_code, status.HTTP_200_OK)
         self.assertEqual(len(res.data), 1)
-        self.assertEquall(res.data, serializer.data)
+        self.assertEqual(res.data, serializer.data)
